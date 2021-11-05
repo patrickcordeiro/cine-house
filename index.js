@@ -37,7 +37,7 @@ function alterarStatusEmCartaz(codigo) {
   } else {
     filmeAlterar.emCartaz = true
   }
-  console.log('Status em cartaz alterado, novo status: ' + filmeAlterar.emCartaz)
+  console.log('Status em cartaz alterado!!!, novo status: ' + filmeAlterar.emCartaz)
 }
 
 function verificaSeFilmeEDeLongaDuracao(filme) {
