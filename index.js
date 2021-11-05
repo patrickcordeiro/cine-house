@@ -2,6 +2,7 @@ const cinema = 'Cine House'
 
 const catalogo = require('./database/catalogo.json')
 
+console.log('Bem vindo')
 function adicionarFilme(titulo, duracao, atores, anoLancamento, emCartaz) {
   const novoFilme = {
     codigo: catalogo.length, 
